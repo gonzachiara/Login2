@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <!-- Enlaza tu archivo CSS específico para la página de registro -->
+    <link rel="stylesheet" href="estilos_registro.css">
+</head>
+<body>
+    <h2>Crear nuevo Usuario</h2>
+    <form action="login_registrar.php" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="usuario">Mail</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="&#10142; Mail" name="usuario" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Contraseña</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="&#128372; Contraseña" name="pass" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Registrar" name="btnregistrar">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <a href="index.html" style="float:right">Volver</a>
+    </form>
+</body>
+</html>

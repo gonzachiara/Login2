@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Enlaza tus archivos CSS externos -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos_ingreso.css">
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    <form action="login_registrar.php" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="usuario">Mail</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="&#10142; Mail" name="usuario" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Contraseña</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="&#128372; Contraseña" name="pass" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" class="btningresar" value="Ingresar" name="btningresar" style="background-color: blue; color: lightblue; border-radius: 25px; font-size: 16px;">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <a href="registrar.html" style="float:down">Crear una cuenta</a>
+        <h1></h1>
+        <a href="recuperar_contraseña.html" style="float:down">Recuperar Contraseña</a>
+    </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
